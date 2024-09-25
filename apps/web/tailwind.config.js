@@ -1,0 +1,1 @@
+module.exports = require('@qualle/tailwind-config/tailwind.config.js')
