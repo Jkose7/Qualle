@@ -4,7 +4,6 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "../../packages/ui/**/*.{js,ts,jsx,tsx}",
-    "../../**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     fontFamily: {
