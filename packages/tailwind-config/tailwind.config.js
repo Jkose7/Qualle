@@ -2,8 +2,9 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{html,js,ts,jsx,tsx}",
-    "../../packages/ui/**/*.{html,js,ts,jsx,tsx}"
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "../../packages/ui/**/*.{js,ts,jsx,tsx}",
+    "../../**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     fontFamily: {
@@ -17,7 +18,7 @@ module.exports = {
       'dark-gray': '#363434',
       'light-gray': '#d9d9d9',
       'purple': '#8561e2',
-      'dark-purple': '#49357C'
+      'dark-purple': '#49357c'
     },
     extend: {},
   },
