@@ -1,10 +1,9 @@
-import { Button } from "@qualle/ui"
+import { PageDashboard } from "./pages/PageDashboard"
 
 function App() {
   return (
     <>
-      <h1 className="bg-dark font-taviraj">Qualle</h1>
-      <Button></Button>
+      <PageDashboard></PageDashboard>
     </>
   )
 }
