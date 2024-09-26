@@ -1,0 +1,23 @@
+[
+  {
+    "name" : "tareas",
+    "inDashboard": true
+  },
+  {
+    "name": "cuadernos",
+    "inDashboard": true
+  },
+  {
+    "name": "notas",
+    "inDashboard": true
+  },
+  {
+    "name": "canvas"
+  },
+  {
+    "name": "calendario"
+  },
+  {
+    "name": "recompenzas"
+  }
+]
