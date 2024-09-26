@@ -14,6 +14,11 @@ module.exports = {
       'purple': '#8561e2',
       'dark-purple': '#49357C'
     },
+    fontFamily: {
+      taviraj: ["Taviraj", 'serif'],
+      merriweather: ["Merriweather Sans", 'sans-serif'],
+      nunito: ["Nunito Sans", 'sans-serif']
+    },
     extend: {},
   },
   plugins: [],
