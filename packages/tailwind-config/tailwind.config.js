@@ -18,7 +18,7 @@ module.exports = {
       'dark-gray': '#363434',
       'light-gray': '#d9d9d9',
       'purple': '#8561e2',
-      'dark-purple': '#49357c'
+      'dark-purple': '#49357c' // no poner hexadecimales con letras en mayuscula
     },
     extend: {},
   },
