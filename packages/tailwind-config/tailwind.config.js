@@ -6,20 +6,20 @@ module.exports = {
     "../../packages/ui/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      taviraj: ["Taviraj", 'serif'],
-      merriweather: ["Merriweather Sans", 'sans-serif'],
-      nunito: ["Nunito Sans", 'sans-serif'],
+    extend: {
+      fontFamily: {
+        taviraj: ["Taviraj", 'serif'],
+        merriweather: ["Merriweather Sans", 'sans-serif'],
+        nunito: ["Nunito Sans", 'sans-serif'],
+      },
+      colors: {
+        'darke': '#0a0a0a',
+        'dark-gray': '#363434',
+        'light-gray': '#d9d9d9',
+        'purple': '#8561e2',
+        'dark-purple': '#49357c' // no poner hexadecimales con letras en mayuscula
+      },
     },
-    colors: {
-      'darke': '#0a0a0a',
-      'light': '#ffffff',
-      'dark-gray': '#363434',
-      'light-gray': '#d9d9d9',
-      'purple': '#8561e2',
-      'dark-purple': '#49357c' // no poner hexadecimales con letras en mayuscula
-    },
-    extend: {},
   },
   plugins: [],
 }

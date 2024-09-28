@@ -1,10 +1,10 @@
 [
   {
-    "name" : "tareas",
+    "name": "cuadernos",
     "inDashboard": true
   },
   {
-    "name": "cuadernos",
+    "name": "tareas",
     "inDashboard": true
   },
   {
