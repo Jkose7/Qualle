@@ -1,6 +1,7 @@
 // component exports
 export * from './src/CardNotebook.tsx';
 export * from './src/CardNotebookNew.tsx'
+export * from './src/CardTask.tsx'
 
 // utils exports 
 export * from './src/utils/TutorialFlag.tsx'

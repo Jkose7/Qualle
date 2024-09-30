@@ -1,15 +1,12 @@
-import { CardNotebook, CardNotebookNew } from "@qualle/ui"
 import { FeatureSectionProps } from "./_types"
+import { FeatureSectionRender } from "./FeatureSectionRender"
 
+export function FeatureSection({ title, type }: FeatureSectionProps) {
 
-export function FeatureSection({ title }: FeatureSectionProps) {
   return (
     <section className="flex flex-col gap-2 sm:gap-4">
       <h1 className="text-md sm:text-xl text-light font-merriweather font-extrabold">{title}</h1>
-      <section className="flex gap-6">
-        <CardNotebook />
-        <CardNotebookNew />
-      </section>
+      <FeatureSectionRender type={type}/>
     </section>
   )
 }

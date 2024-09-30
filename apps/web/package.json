@@ -16,10 +16,10 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@qualle/eslint-config": "*",
-    "@qualle/typescript-config": "*",
-    "@qualle/tailwind-config": "*",
     "@eslint/js": "^9.9.0",
+    "@qualle/eslint-config": "*",
+    "@qualle/tailwind-config": "*",
+    "@qualle/typescript-config": "*",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
@@ -32,6 +32,7 @@
     "tailwindcss": "^3.4.13",
     "typescript": "^5.6.2",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "vite": "^5.4.1",
+    "zustand": "^5.0.0-rc.2"
   }
 }

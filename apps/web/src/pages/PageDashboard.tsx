@@ -8,9 +8,7 @@ export function PageDashboard() {
       {
         features.map(({ name, inDashboard }) => (
           inDashboard && (
-            <FeatureSection title={name} key={name}>
-              <h1 className="bg-purple">{name}</h1>
-            </FeatureSection>
+            <FeatureSection title={name} type={name} key={name} />
           )
         ))
       }
