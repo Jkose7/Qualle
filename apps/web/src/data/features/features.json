@@ -1,23 +1,32 @@
 [
   {
-    "name": "cuadernos",
+    "name": "Cuadernos",
+    "key": "notebook",
     "inDashboard": true
   },
   {
-    "name": "tareas",
+    "name": "Tareas",
+    "key": "task",
     "inDashboard": true
   },
   {
-    "name": "notas",
+    "name": "Notas",
+    "key": "notes",
     "inDashboard": true
   },
   {
-    "name": "canvas"
+    "name": "Canvas",
+    "key": "canvas",
+    "inDashboard": false
   },
   {
-    "name": "calendario"
+    "name": "Calendario",
+    "key": "calendar",
+    "inDashboard": false
   },
   {
-    "name": "recompenzas"
+    "name": "Recompenzas",
+    "key": "rewards",
+    "inDashboard": false
   }
 ]

@@ -1,12 +1,3 @@
-export interface CommonFeatureProps {
+export interface CommonDashboardTypes {
   children: React.ReactNode;
-}
-
-export interface FeatureSectionProps {
-  title: string;
-  type: string
-}
-
-export interface FeatureSectionRenderProps {
-  type: string
 }
