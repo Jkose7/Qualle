@@ -1,7 +1,14 @@
-// component exports
-export * from './src/CardNotebook.tsx';
-export * from './src/CardNotebookNew.tsx'
-export * from './src/CardTask.tsx'
+// export notebooks
+export * from './src/notebooks/CardNotebookTutorial.tsx';
+export * from './src/notebooks/CardNotebookNew.tsx'
+
+// export tasks
+export * from './src/tasks/CardTaskTutorial.tsx'
+export * from './src/tasks/CardTaskNew.tsx'
+
+// export notes 
+export * from './src/notes/CardNotesTutorial.tsx'
+export * from './src/notes/CardNotesNew.tsx'
 
 // utils exports 
 export * from './src/utils/TutorialFlag.tsx'

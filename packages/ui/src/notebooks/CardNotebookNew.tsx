@@ -1,4 +1,4 @@
-import { Gradient } from "./utils/Gradient"
+import { Gradient } from "../utils/Gradient"
 
 export const CardNotebookNew = () => {
   return (

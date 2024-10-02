@@ -1,7 +1,7 @@
-import { Gradient } from "./utils/Gradient"
-import { TutorialFlag } from "./utils/TutorialFlag"
+import { Gradient } from "../utils/Gradient"
+import { TutorialFlag } from "../utils/TutorialFlag"
 
-export const CardNotebook = () => {
+export const CardNotebookTutorial = () => {
   return (
     <article className="flex flex-col bg-dark-gray h-44 w-40 rounded-lg">
       <div className="h-3/6 w-full relative bg-transparent">

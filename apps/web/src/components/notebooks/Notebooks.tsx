@@ -1,5 +1,10 @@
-export function Notebooks(){
+import { NotebooksWelcome } from "./NotebooksWelcome";
+
+export function Notebooks() {
   return (
-    <h1>Notebooks</h1>
+    <div>
+      <h1>Notebooks</h1>
+      <NotebooksWelcome />
+    </div>
   )
 }
