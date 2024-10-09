@@ -8,7 +8,7 @@ export const CardNotesTutorial = () => {
         <Gradient />
       </div>
       <div className="h-3/6 w-full px-2 py-1">
-        <p className="text-base text-balance text-white">¡Dibuja, recuerda, escribe!</p>
+        <p className="text-base text-balance text-white">¡Dibuja y anota!</p>
         <TutorialFlag />
       </div>
     </article>
