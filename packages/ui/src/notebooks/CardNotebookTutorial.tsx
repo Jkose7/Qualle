@@ -1,6 +1,5 @@
 import { Gradient } from "../utils/Gradient"
-import { TutorialFlag } from "../utils/TutorialFlag"
-
+import { Flag } from "../utils/Flag"
 export const CardNotebookTutorial = () => {
   return (
     <article className="flex flex-col bg-dark-gray h-44 w-40 rounded-lg">
@@ -9,7 +8,7 @@ export const CardNotebookTutorial = () => {
       </div>
       <div className="h-3/6 w-full px-2 py-1">
         <p className="text-base text-balance text-white">¡Crea tu primer cuaderno!</p>
-        <TutorialFlag />
+        <Flag name="Tutorial"/>
       </div>
     </article>
   )
